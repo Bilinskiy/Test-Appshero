@@ -11,7 +11,8 @@ import SwiftUI
 struct TestAppsheroApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+               .modelContainer(for: [ImageModal.self])
         }
     }
 }

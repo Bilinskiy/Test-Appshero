@@ -6,33 +6,83 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		D0E9D9622D414EF6004A39E4 /* TestAppshero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAppshero.app; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		D0BFA2DE2D42FAF800031B00 /* PinterestLikeGrid in Frameworks */ = {isa = PBXBuildFile; productRef = D0BFA2DD2D42FAF800031B00 /* PinterestLikeGrid */; };
+		D0BFA30B2D43C13C00031B00 /* ImageCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BFA30A2D43C13C00031B00 /* ImageCardViewModel.swift */; };
+		D0E9D9CE2D4236C1004A39E4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9D9C62D4236C1004A39E4 /* HomeView.swift */; };
+		D0E9D9CF2D4236C1004A39E4 /* HomeViewEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9D9C72D4236C1004A39E4 /* HomeViewEmpty.swift */; };
+		D0E9D9D02D4236C1004A39E4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9D9C82D4236C1004A39E4 /* HomeViewModel.swift */; };
+		D0E9D9D12D4236C1004A39E4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9D9C92D4236C1004A39E4 /* Model.swift */; };
+		D0E9D9D32D4236C1004A39E4 /* TestAppsheroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9D9CB2D4236C1004A39E4 /* TestAppsheroApp.swift */; };
+		D0E9D9D42D4236C1004A39E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E9D9C22D4236C1004A39E4 /* Preview Assets.xcassets */; };
+		D0E9D9D52D4236C1004A39E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E9D9C42D4236C1004A39E4 /* Assets.xcassets */; };
+		D0E9D9DA2D4272AF004A39E4 /* ImageCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9D9D92D4272AF004A39E4 /* ImageCardView.swift */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		D0E9D9642D414EF6004A39E4 /* TestAppshero */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TestAppshero;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		D0BFA2DB2D42B9D500031B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D0BFA30A2D43C13C00031B00 /* ImageCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCardViewModel.swift; sourceTree = "<group>"; };
+		D0E9D9622D414EF6004A39E4 /* TestAppshero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAppshero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E9D9C22D4236C1004A39E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0E9D9C42D4236C1004A39E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0E9D9C62D4236C1004A39E4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D0E9D9C72D4236C1004A39E4 /* HomeViewEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewEmpty.swift; sourceTree = "<group>"; };
+		D0E9D9C82D4236C1004A39E4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D0E9D9C92D4236C1004A39E4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D0E9D9CB2D4236C1004A39E4 /* TestAppsheroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppsheroApp.swift; sourceTree = "<group>"; };
+		D0E9D9D92D4272AF004A39E4 /* ImageCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D0E9D95F2D414EF6004A39E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BFA2DE2D42FAF800031B00 /* PinterestLikeGrid in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0BFA2E12D43908300031B00 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				D0E9D9C62D4236C1004A39E4 /* HomeView.swift */,
+				D0E9D9C82D4236C1004A39E4 /* HomeViewModel.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		D0BFA2E22D4390A600031B00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0E9D9C72D4236C1004A39E4 /* HomeViewEmpty.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0BFA2E32D4390C400031B00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0E9D9C92D4236C1004A39E4 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0BFA30C2D43C14800031B00 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				D0E9D9D92D4272AF004A39E4 /* ImageCardView.swift */,
+				D0BFA30A2D43C13C00031B00 /* ImageCardViewModel.swift */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
 		D0E9D9592D414EF6004A39E4 = {
 			isa = PBXGroup;
 			children = (
-				D0E9D9642D414EF6004A39E4 /* TestAppshero */,
+				D0E9D9CC2D4236C1004A39E4 /* TestAppshero */,
 				D0E9D9632D414EF6004A39E4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +93,29 @@
 				D0E9D9622D414EF6004A39E4 /* TestAppshero.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D0E9D9C32D4236C1004A39E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D0E9D9C22D4236C1004A39E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0E9D9CC2D4236C1004A39E4 /* TestAppshero */ = {
+			isa = PBXGroup;
+			children = (
+				D0BFA2DB2D42B9D500031B00 /* Info.plist */,
+				D0E9D9C32D4236C1004A39E4 /* Preview Content */,
+				D0E9D9C42D4236C1004A39E4 /* Assets.xcassets */,
+				D0E9D9CB2D4236C1004A39E4 /* TestAppsheroApp.swift */,
+				D0BFA2E12D43908300031B00 /* HomeView */,
+				D0BFA30C2D43C14800031B00 /* ImageView */,
+				D0BFA2E22D4390A600031B00 /* View */,
+				D0BFA2E32D4390C400031B00 /* Model */,
+			);
+			path = TestAppshero;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,11 +133,9 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				D0E9D9642D414EF6004A39E4 /* TestAppshero */,
-			);
 			name = TestAppshero;
 			packageProductDependencies = (
+				D0BFA2DD2D42FAF800031B00 /* PinterestLikeGrid */,
 			);
 			productName = TestAppshero;
 			productReference = D0E9D9622D414EF6004A39E4 /* TestAppshero.app */;
@@ -94,6 +165,9 @@
 			);
 			mainGroup = D0E9D9592D414EF6004A39E4;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D0BFA2DC2D42FAF800031B00 /* XCRemoteSwiftPackageReference "PinterestLikeGrid" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D0E9D9632D414EF6004A39E4 /* Products */;
 			projectDirPath = "";
@@ -109,6 +183,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E9D9D42D4236C1004A39E4 /* Preview Assets.xcassets in Resources */,
+				D0E9D9D52D4236C1004A39E4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +195,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E9D9CE2D4236C1004A39E4 /* HomeView.swift in Sources */,
+				D0E9D9CF2D4236C1004A39E4 /* HomeViewEmpty.swift in Sources */,
+				D0E9D9D02D4236C1004A39E4 /* HomeViewModel.swift in Sources */,
+				D0E9D9D12D4236C1004A39E4 /* Model.swift in Sources */,
+				D0BFA30B2D43C13C00031B00 /* ImageCardViewModel.swift in Sources */,
+				D0E9D9DA2D4272AF004A39E4 /* ImageCardView.swift in Sources */,
+				D0E9D9D32D4236C1004A39E4 /* TestAppsheroApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,11 +338,14 @@
 				DEVELOPMENT_TEAM = B9RY2H98ND;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestAppshero/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Это приложение требует разрешения для загрузки и добавлении изображений в вашу галерею.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,11 +370,14 @@
 				DEVELOPMENT_TEAM = B9RY2H98ND;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestAppshero/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Это приложение требует разрешения для загрузки и добавлении изображений в вашу галерею.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,6 +413,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D0BFA2DC2D42FAF800031B00 /* XCRemoteSwiftPackageReference "PinterestLikeGrid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thaisrfernandes/PinterestLikeGrid.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D0BFA2DD2D42FAF800031B00 /* PinterestLikeGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0BFA2DC2D42FAF800031B00 /* XCRemoteSwiftPackageReference "PinterestLikeGrid" */;
+			productName = PinterestLikeGrid;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D0E9D95A2D414EF6004A39E4 /* Project object */;
 }
